@@ -1,0 +1,197 @@
+.basicInfo {
+  margin-top: 48px;
+}
+.basicInfo h1 {
+  font-size: 80px;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 47px;
+  letter-spacing: 10px;
+}
+
+.photo {
+  margin-top: 57px;
+  margin-bottom: 68px;
+}
+.photo img {
+  display: block;
+}
+
+.profile, .education, .skill, .workExperience {
+  margin-bottom: 72px;
+}
+.profile h2, .education h2, .skill h2, .workExperience h2 {
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 1px solid #828282;
+  padding-bottom: 18px;
+}
+.profile span, .education span, .skill span, .workExperience span {
+  margin-left: 16px;
+  color: #A00404;
+  font-size: 24px;
+}
+
+.profileText {
+  display: flex;
+  margin-top: 26px;
+  padding-left: 19px;
+}
+.profileText .fa-circle {
+  color: #95aac4;
+}
+.profileText .text {
+  margin-left: 22px;
+  font-size: 24px;
+  flex-direction: column;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+.content p {
+  margin-bottom: 19px;
+}
+
+.education {
+  position: relative;
+}
+.education h2 {
+  margin-bottom: 26px;
+}
+
+.educationText {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.educationText .fa-circle {
+  padding: 0px 19px;
+  color: #96A9C4;
+}
+.educationText .fa-circle::after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 95px;
+  width: 2px;
+  height: 66px;
+  border: 1px solid #96A9C4;
+}
+.educationText .text {
+  font-size: 24px;
+}
+
+.skillBar {
+  height: 360px;
+  background-color: #96A9C4;
+  margin-top: 142px;
+  margin-bottom: 136px;
+}
+.skillBar .container {
+  background-color: #415165;
+  position: relative;
+  top: -73px;
+  padding: 25px 82px 38px 82px;
+  margin-bottom: 72px;
+}
+
+.skill {
+  margin-bottom: 31px;
+}
+.skill h2, .skill span {
+  color: #fff;
+  text-align: center;
+  border-color: #fff;
+}
+
+.skillList {
+  padding-left: 20px;
+  width: 216px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #fff;
+  border-left: 1px solid #96A9C4;
+  margin-bottom: 38px;
+}
+.skillList li {
+  margin-bottom: 25px;
+}
+.skillList li:nth-child(7n+7) {
+  margin-bottom: 0px;
+}
+
+.workExperience .content {
+  padding-left: 23px;
+  margin-top: 20px;
+  border-left: 1px solid #96A9C4;
+  margin-left: 22px;
+}
+.workExperience .content h3 {
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+.workExperience .content .img {
+  margin-bottom: 13px;
+}
+.workExperience .content .text {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 44px;
+}
+
+.workExperienceList {
+  font-size: 24px;
+}
+.workExperienceList li {
+  margin-bottom: 38px;
+  font-weight: bold;
+}
+.workExperienceList .simtree .img {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+.workExperienceList .simtree .text {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  background-color: #415165;
+  padding-top: 28px;
+}
+.footer h2 {
+  font-size: 32px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 14px;
+  font-weight: bold;
+}
+.footer span {
+  margin-left: 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer .contact {
+  margin-top: 35px;
+  font-size: 24px;
+}
+.footer .contact li {
+  margin-bottom: 28px;
+}
+.footer .contact li:nth-child(5n+5) {
+  margin-bottom: 0px;
+}
+.footer .contact .socal {
+  padding-bottom: 41px;
+}
+.footer .contact .socal .facebook, .footer .contact .socal .ig {
+  margin-right: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
