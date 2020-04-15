@@ -17,16 +17,16 @@
   display: block;
 }
 
-.profile, .education, .skill, .workExperience {
+.title {
   margin-bottom: 72px;
 }
-.profile h2, .education h2, .skill h2, .workExperience h2 {
+.title h2 {
   font-size: 32px;
   font-weight: bold;
   border-bottom: 1px solid #828282;
   padding-bottom: 18px;
 }
-.profile span, .education span, .skill span, .workExperience span {
+.title span {
   margin-left: 16px;
   color: #A00404;
   font-size: 24px;
